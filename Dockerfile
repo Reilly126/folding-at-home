@@ -9,9 +9,9 @@
 FROM fedora
 
 # If you set USERNAME to Anonymous, the folding@home client pauses for 5 minutes, but will then begin processing data.
-ENV USERNAME Anonymous
+ENV USERNAME reilly126
 ENV TEAM 0
-ENV POWER medium
+ENV POWER high
 
 # Install updates
 RUN yum update -y
